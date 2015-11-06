@@ -1,12 +1,12 @@
-###Lilliurlian
-###Guida all'installazione su Docker
+###Lilliurlian: Guida all'installazione su Docker
 
+Software Lilliurlian: https://github.com/GruppoPBDMNG-14/Lilliurlian
 
 ###Preparativi
 
--Assicurarsi di aver installato docker
--Assicurarsi di aver inoltrato la porta TCP 8080 sia lato host che lato guest sulla macchina virtuale in uso
--Avviare boot2docker o Docker Quickstart Terminal
+- Assicurarsi di aver installato docker
+- Assicurarsi di aver inoltrato la porta TCP 8080 sia lato host che lato guest sulla macchina virtuale in uso
+- Avviare boot2docker o Docker Quickstart Terminal
 
 
 ###Installazione
