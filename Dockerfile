@@ -45,7 +45,11 @@ RUN echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true
 RUN apt-get install oracle-java8-installer -y
 
 
-# Install maven
+#Install Git
+RUN apt-get install git -y
+
+
+# Install Maven
 RUN apt-get update
 RUN apt-get install -y maven
 
