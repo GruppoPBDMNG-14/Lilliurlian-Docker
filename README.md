@@ -29,6 +29,9 @@ Software Lilliurlian: https://github.com/GruppoPBDMNG-14/Lilliurlian
 6. Eseguire il comando:
 <pre>./start-server</pre>
 
+Per effettuare i test JUnit eseguire il comando:
+<pre>./test-server</pre>
+
 
 ###Accesso al client
 

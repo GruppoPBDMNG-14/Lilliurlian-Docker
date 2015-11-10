@@ -64,3 +64,10 @@ RUN echo 'cd /Lilliurlian/Lilliurlian' >> /start-server
 RUN echo 'mvn package' >> /start-server
 RUN echo 'java -jar target/Lilliurlian.jar' >> /start-server
 RUN chmod 777 /start-server
+
+
+#create a test script and make it executable
+RUN echo '#!/bin/bash' >> /test-server
+RUN echo 'cd /Lilliurlian/Lilliurlian' >> /test-server
+RUN echo 'mvn test' >> /test-server
+RUN chmod 755 /test-server
